@@ -5,7 +5,7 @@
     <meta charset=utf-8"utf-8">
     <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width">
     <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
-    <title>Tools From whaosoft</title>
+    <title>Tools From Bgcloud.tech</title>
     <link rel="stylesheet" type="text/css" href="demo.css"  />
     <style>
         .setbtn {
@@ -25,6 +25,23 @@
         }
     </style>
 
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.play.stream.un-bug.com"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.un-bug.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 
 
 </head>
@@ -163,7 +180,7 @@
             mediaDataSource["withCredentials"] = false;
             mediaDataSource["hasAudio"] = false;
             mediaDataSource["hasVideo"] = true;
-            var ssurl = 'http://##/0.flv';
+            var ssurl = 'http://bgd002.device.yuanjinapp.com/0.flv';
             var _thisurl = ls_get(_playerurlkey, ssurl);
             if (_thisurl !== "") {
                 mediaDataSource['url'] = _thisurl;
@@ -326,7 +343,9 @@
         }
 
     </script>
-
+    <div style="display:none">
+	<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279668063'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279668063%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</div>
 </body>
 
 </html>
